@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css file/normalise.css">
+    <link rel="stylesheet" href="./css file/all.min.css">
+    <link rel="stylesheet" href="./css file/product.css">
+    <title>Product</title>
+</head>
+<body>
+    <!-- Start First Section-->
+    <div class="background">
+        <div class="sectionone" >
+            <div class="container">
+                <div class="firstheader">
+                    <span class="location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>   Building S6/2 -2nd District, 6th Territory 5th Settlement - New Cairo-Egypt</span>
+                    </span>
+                    <span class="link">
+                        <a href="https://www.facebook.com/futurepharmaceuticalindustries/" target="_blank"><i class="fa-brands fa-square-facebook" style="color: #3B5998;"></i></a>
+                        <a href="https://eg.linkedin.com/company/fpi-future-pharmaceutical-industries" target="_blank"><i class="fa-brands fa-linkedin" style="color: #0077b5;"></i></a>
+                        <a href="" target="_blank"><i class="fa-brands fa-square-twitter" style="color: #1da1f2;"></i></a>
+                        <a href="https://www.youtube.com/channel/UC6UTc6g4fvKguJ0y6w_sjZA" target="_blank"><i class="fa-brands fa-youtube" style="color: #f00505;"></i></a>
+                    </span>
+                </div>
+            </div>
+         </div>
+        
+            
+                <div class="secondheader" id="HOME">
+                    <a href="./project1.html" class="logo"><img src="./asset/FPI-Webside-Logo-white.png" alt=""></a>
+                    <a href="./project1.html" class="Home"><h4>HOME</h4></a>
+                    <a href="#aboutus"><h4>ABOUT US</h4></a>
+                    <a href="#ourproducts"><h4>OUR PRODUCTS</h4></a>
+                    <a href="#manufacturing"><h4>MANUFACTURING FACILITY</h4></a>
+                    <a href="#reach"><h4>Reach Out To Us</h4></a>
+                    <a href="./cart.html"><i class="fa-solid fa-cart-shopping" style="color: #3178f2;"></i></a>
+                </div>
+        <!-- End First Section--> 
+    <!-- Start produts -->
+    
+    <div class="products" id="ourproducts">
+        
+      <div class="product" style="cursor: pointer;">
+        <div onclick="categoryShow('Orthopedic')">
+            <img src="./asset/bonepain.jpg" alt="Orthopedic (Bone and pain)">
+            <h4>Orthopedic (Bone and pain)</h4>
+          </div>
+          <div onclick="categoryShow('Infection')">
+            <img src="./asset/shutterstock_1608195838.jpg" alt="Infection">
+            <h4>Infection</h4>
+          </div>
+          <div onclick="categoryShow('Cardio')">
+            <img src="./asset/cario2.jpg" alt="Cardio/Metabolic">
+            <h4>Cardio/Metabolic</h4>
+          </div>
+          <div onclick="categoryShow('Neuro')">
+            <img src="./asset/Neuro2.jpg" alt="Neuro/Psychiatry">
+            <h4>Neuro/Psychiatry</h4>
+          </div>
+          <div onclick="categoryShow('Gastroenterology')">
+            <img src="./asset/Gastroenterology2.jpg" alt="Gastroenterology">
+            <h4>Gastroenterology</h4>
+          </div>
+          <div onclick="categoryShow('ENT')">
+            <img src="./asset/ent2.jpg" alt="Ear, Nose & Throat">
+            <h4>Ear, Nose & Throat</h4>
+          </div>
+          <div onclick="categoryShow('OTC')">
+            <img src="./asset/OTC-and-Dietary-Supplements.jpg" alt="OTC and Dietary Supplements">
+            <h4>OTC and Dietary Supplements</h4>
+          </div>
+      </div>
+     </div>
+    <!-- End produts -->
+    <!-- start get product -->
+    <div class="container" id="newproducts">
+      <button onclick="showdata()" style="border: none;
+      outline: 0;
+      padding: 30px;
+      color: #001a26;
+      background-color: #eee;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 38px;
+      font-family: emoji;">Show All Product</button>
+    </div>
+    <!-- End get product -->
+
+    
+
+</body>
+<script src="./product.js"></script>
+</html>

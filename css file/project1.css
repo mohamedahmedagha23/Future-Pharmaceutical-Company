@@ -1,0 +1,124 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/*Start Container */
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width:768px) {
+    .container{width: 750px;}
+}
+@media (min-width:992px) {
+    .container{width: 970px;}
+}
+@media (min-width:1200px) {
+    .container{width: 1170px;}
+}
+/*End Container */
+/* Start First Header */
+.background{
+    background-image: url(../asset/lab.jpg);
+    width: 100%;height: 900px;background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.sectionone .firstheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sectionone .firstheader .location{font-size: 13px; color: #ffffff;}
+.sectionone .firstheader :hover{color: rgb(47, 47, 252);}
+.sectionone .firstheader .location i{margin-right: 10px;}
+.sectionone .firstheader .location {margin-top: 3px;}
+.sectionone .firstheader .link{margin-top: 15px;}
+.sectionone .firstheader .link a{padding: 2px;}
+.sectionone .firstheader .link a i{font-size: 25px;}
+/* End First Header */
+/* Start second Header */
+.secondheader {position: absolute;left: 70px;}
+.secondheader .logo{position: relative;top: 27px; }
+.secondheader .logo img{ width: 130px;}
+.secondheader a{text-decoration: none;color: #ffffff;font-family: sans-serif;font-size: 17px;padding: 0 20px;}
+.secondheader a h4{display: inline-block;}
+.secondheader a:hover {color: #0b07ced2 ;}
+.secondheader .Home{color: #0b07ced2;font-size: 22px;}
+.secondheader a button{ padding: 20px 30px;color: #ffffff;background-color: rgb(110, 110, 255);border-radius: 5px;border: 2px solid rgb(110, 110, 255);}
+.secondheader a button:hover{color: black;background-color: #ffffff;border: 2px solid #ffffff;}
+/* End second Header */
+/* Start Welcome */
+.welcome{
+    width: 60%;
+    background-color: #00000052;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    border-radius: 8px 8px 8px 8px;
+    position: relative;
+    top: 200px;
+    padding: 30px 30px 30px 30px;
+    
+}
+.welcome h6{padding-bottom: 5px; color: #ffffff;font-size: 15px;font-family: sans-serif;}
+.welcome h1{padding-bottom: 5px;color: #ffffff;font-size: 38px;font-family: sans-serif;}
+.welcome h5{padding-bottom: 5px; color: #ffffff;font-size: 17px;font-family: sans-serif;}
+.welcome .first button{margin-top: 50px;margin-right: 20px; padding: 20px 20px;color: #ffffff;background-color:rgb(110, 110, 255) ;border: 2px solid rgb(110, 110, 255);border-radius: 5px;}
+.welcome .second button{margin-top: 50px; padding: 20px 20px;border: 2px solid #ffffff;color: #ffffff;border-radius: 5px;background-color:#00000052 ;}
+.welcome .first button:hover{color: black;background-color:#ffffff;border: 2px solid #ffffff}
+.welcome .second button:hover{color: black;background-color:#ffffff;border: 2px solid #ffffff}
+/* End Welcome */
+/* Start about us */
+.aboutus .container{display: flex;justify-content: space-around;padding: 10px; margin-top: 100px;margin-bottom: 100px;}
+.aboutus .container .frame{margin-right: 30px;}
+.aboutus .introduction h5{color: #09a3ea;font-size: 19px;font-family: sans-serif;}
+.aboutus .introduction h1{color: #253750;font-size: 33px;font-family: sans-serif;}
+.aboutus .introduction h4{color: #253750;margin: 0 0 14.4px; font-size: 17px;font-family: sans-serif;}
+/* End about us */
+/*Start products  */
+.products .product {margin: 30px 0 30px 0; display: flex;justify-content: space-around;align-items: center;flex-wrap: wrap;left: 10px;margin-left: 10px;}
+.products h1{margin-bottom: 30px; margin-left: 40%;color: #09a3ea;}
+.products .product div{padding: 25px;width: 30%;text-align: center;}
+.products .product div img{width: 310px;
+    border-radius: 8px 8px 8px 8px;box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);}
+.products h4{padding: 10px; font-size: 20px;font-family: sans-serif;}
+.products h4:hover{color: #09a3ea;}
+/* End products */
+/*Start manufucturing  */
+.manufacturing{margin-top: 100px;margin-bottom: 100px;background-image: url(../asset/bg_pattern.png);background-position: center right;
+    background-repeat: no-repeat;padding: 30px 0;
+    background-size: contain;height: 600px;
+    background-color: #00153b;opacity: 0.9;}
+.manufacturing h1{color: #ffffff; text-align: center;margin-bottom: 90px;}
+.manufacturing .facility{display: flex;}
+.manufacturing .facility .manu{color: #ffffff; width: 40%;position: relative;}
+.manufacturing .facility .manu h1{position: absolute;}
+.manufacturing .facility .manu ul{position: absolute;top: 100px;}
+.manufacturing .facility .image{margin-left: 60px; width: 40%;}
+.manufacturing .facility .image img{width: 600px;border-radius: 8px 8px 8px 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);}
+/*End manufucturing  */
+/* Start footer */
+.footer{margin-bottom: 100px;}
+.footer .container{display: flex;justify-content: space-between;padding: 15px 30px;}
+.footer .container .frame iframe{position: relative;left: 50px;top: -15px;} 
+.footer .makespan{display: flex;align-items: center;margin: 2px 0 10px 0;padding: 15px;position: relative;left: -25px;}
+.footer .makespan i{margin-right: 18px;border: 2px solid #f2f3f5;padding: 14px;border-radius: 50%;font-size: 20px;background-color: #f2f3f5;color: #09a3ea;}
+/* End footer */
+/* Start Last */
+.last .manufacturing{
+    margin-bottom: 0;height: 200px;display: flex;justify-content: space-around;align-items: center;
+}
+.last .manufacturing .logo img{width: 150px;}
+.last .manufacturing .rights{color: #ffffff;}
+.last .manufacturing div a{padding: 15px;} 
+.last .manufacturing div a i{font-size: 20px;}
+/*End Last */
+

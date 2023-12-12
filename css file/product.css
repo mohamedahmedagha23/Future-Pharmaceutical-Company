@@ -1,0 +1,65 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/*Start Container */
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width:768px) {
+    .container{width: 750px;}
+}
+@media (min-width:992px) {
+    .container{width: 970px;}
+}
+@media (min-width:1200px) {
+    .container{width: 1170px;}
+}
+/*End Container */
+/* Start First Header */
+.background{        
+        width: 100%;
+        height: 160px;       
+        background-color:#001a26;    
+}
+.sectionone .firstheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sectionone .firstheader .location{font-size: 13px; color: #ffffff;}
+.sectionone .firstheader :hover{color: rgb(47, 47, 252);}
+.sectionone .firstheader .location i{margin-right: 10px;}
+.sectionone .firstheader .location {margin-top: 3px;}
+.sectionone .firstheader .link{margin-top: 15px;}
+.sectionone .firstheader .link a{padding: 2px;}
+.sectionone .firstheader .link a i{font-size: 25px;}
+/* End First Header */
+/* Start second Header */
+.secondheader {position: absolute;left: 70px;}
+.secondheader .logo{position: relative;top: 27px; }
+.secondheader .logo img{ width: 130px;}
+.secondheader a{text-decoration: none;color: #ffffff;font-family: sans-serif;font-size: 17px;padding: 0 20px;}
+.secondheader a h4{display: inline-block;}
+.secondheader a:hover {color: #0b07ced2 ;}
+.secondheader .Home{color: #0b07ced2;font-size: 22px;}
+.secondheader a .fa-cart-shopping{ padding: 20px 30px;font-size: 50px}
+.secondheader a .fa-cart-shopping:hover{color: black;background-color: #ffffff;border: 2px solid #ffffff;}
+/* End second Header */
+/*Start products  */
+.products .product {margin: 200px 0 100px 0; display: flex;justify-content: space-around;align-items: center;flex-wrap: wrap;left: 10px;margin-left: 10px;}
+
+.products .product div{padding: 25px;width: 30%;text-align: center;}
+.products .product div img{width: 310px;
+    border-radius: 8px 8px 8px 8px;box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);}
+.products h4{padding: 10px; font-size: 20px;font-family: sans-serif;}
+.products h4:hover{color: #09a3ea;}
+/* End products */
