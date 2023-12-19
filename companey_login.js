@@ -8,8 +8,8 @@ function login() {
     else {
         for (var i = 0; i < account.length; i++) {
             if ((account[i].email == email) && (account[i].password == password)) {
-                //window.location.replace("./project1.html");
-                location.assign("./project1.html")
+                //window.location.replace("./index.html");
+                location.assign("./index.html")
             }
         }
     }
